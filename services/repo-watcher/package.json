@@ -1,0 +1,20 @@
+{
+  "name": "@aegis-protocol/repo-watcher",
+  "version": "0.1.0",
+  "description": "Reads repo agreements from the chain and reports pending, active, due and liquidatable ones",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "chizzy0011 <296515658+chizzy0011@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@aegis-protocol/sdk": "*",
+    "@stellar/stellar-sdk": "^17.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
